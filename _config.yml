@@ -1,0 +1,58 @@
+layout: stacked
+style: dark
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 5
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
+
+# social_media:
+  researchgate: Kibet Gilbert
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  linkedin: Gilbert Kibet-Rono
+  # mastodon: your_username
+  # medium: your_username
+  stackoverflow: Kibet
+  # telegram: your_username
+  twitter: Gilbert Kibet
+  # unsplash: your_username
+  # vk: your_username
+  website: https://github.com/kibet-gilbert/Gilbert-Kibet.github.io
+  # youtube: your_username
+
+topics:
+  - name: Bioinformatics
+    web_url: https://github.com/topics/Bioinformatics
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/Bioinformatics/Bioinformatics.png
+
+  - name: Open Science
+
+  - name: Big Data
+    web_url: https://github.com/topics/Big%20Data
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/Big%20Data/Big%20Data.png
